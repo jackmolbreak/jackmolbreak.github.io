@@ -1,13 +1,134 @@
-<html>
+body {
+  font-family: Arial, Courier, sans-serif;
+  font-fize: 15px;
+  line-hight:1.5;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+/*Global*/
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
 
-<head>
-    <title>My First HTML Page</title>
-</head>
+ul{
+  margin:0;
+  padding:0;
+}
 
-<body>
+header{
+  background: #35434a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom:#94E628 3px solid;
+}
 
-    My text goes here.
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
 
-</body>
 
-</html>
+header li{
+  float:left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #e8491d
+  font-weight:bold;
+}
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase*/
+#showcase{
+  min-height:400px;
+  background:url('../img/computer_code.jpg') no-repeat -400px -400px;
+  text-align: center;
+  color:#94E628;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+
+}
+
+#showcase p{
+  font-size:20px;
+}
+#boxes{
+  margin-top: 20px;
+
+}
+
+#main .project-box{
+  float: left;
+  width: 40%;
+  padding: 15px;
+  text-align:left;
+}
+
+  #main .project-box img{
+    width: 500px;
+  }
+
+
+
+
+
+#boxes .box{
+  float:right;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+
+}
+
+#boxes .box img{
+  width: 120px;
+}
+
+
+#boxes .text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+  
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #35434a
+}
